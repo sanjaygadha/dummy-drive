@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+   
+}
+.article{
+    background-image:url(./1713362334.0259_Il_Biscotto-Sbrisolotto_Taglio-per-sito.jpg);
+    background-repeat: no-repeat;
+    height: 500vh;
+    width: 100%;
+    background-attachment: fixed;
+}
+
+.container1{
+    /* border: 1px solid red; */
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: max-content;
+   padding-top: 20px ;
+   background-color: white;
+   position: sticky;
+   top: 20px;
+}
+.logo{
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.nav2{
+    display: flex;
+    gap: 10px;
+    list-style-type: none;
+}
+.icons{
+   
+}
+.box{
+    height: max-content;
+    width: 100%;
+    display: flex;
+    /* border: 1px solid green; */
+}
+.image{
+    background-color: #fe675d;
+    height: 80vh;
+    flex-basis: 50%;
+    /* border: 2px solid; */
+}
+.img{
+    padding-top: 15%;
+    padding-left: 20%;
+}
+.content{
+    padding: 50px;
+    height: 80vh;
+    flex-basis: 50%;
+    /* border: 2px solid; */
+    background-color: white;
+}
+.homemade{
+    color: rgb(105, 100, 100);
+    
+}
+.biscuit{
+    font-size: xx-large;
+    font-weight: bold;
+
+}
+.span{
+    font-weight: bold;
+}
+
